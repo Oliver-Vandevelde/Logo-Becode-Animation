@@ -1,0 +1,157 @@
+/*KeyFrames*/
+    @keyframes FadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    @keyframes scale-up-center {
+        0% { transform: scale(0.5); }
+        66% { transform: scale(1.5); }
+        80% { transform: scale(0.9); }
+        90% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+    @keyframes dash {
+        from {stroke-dashoffset: 1000;}
+        to {stroke-dashoffset: 0;}
+    }
+/* Animation ecrit */
+    /* becode.org */
+        #g3891 path {
+            opacity: 0;
+            animation: 1s ease 2.1s normal forwards 1 FadeIn;
+        }
+        #g3895 path {
+            opacity: 0;
+            animation: 1s ease 2.1s normal forwards 1 FadeIn;
+        }
+        #g3899 path {
+            opacity: 0;
+            animation: 1s ease 2.2s normal forwards 1 FadeIn;
+        }
+        #g3903 path {
+            opacity: 0;
+            animation: 1s ease 2.3s normal forwards 1 FadeIn;
+        }
+        #g3907 path {
+            opacity: 0;
+            animation: 1s ease 2.4s normal forwards 1 FadeIn;
+        }
+        #g3911 path {
+            opacity: 0;
+            animation: 1s ease 2.5s normal forwards 1 FadeIn;
+        }
+        #g3915 path {
+            opacity: 0;
+            animation: 1s ease 2.6s normal forwards 1 FadeIn;;
+        }
+        #g3919 path {
+            opacity: 0;
+            animation: 1s ease 2.7s normal forwards 1 FadeIn;
+        }
+        #g3923 path {
+            opacity: 0;
+            animation: 1s ease 2.8s normal forwards 1 FadeIn;
+        }
+        #g3927 path {
+            opacity: 0;
+            animation: 1s ease 2.9s normal forwards 1 FadeIn;
+        }
+    /* in code we trust */
+        #g3839 path {
+            opacity: 0;
+            animation: 1s ease 1s normal forwards 1 FadeIn;
+        }
+        #g3843 path {
+            opacity: 0;
+            animation: 1s ease 1.1s normal forwards 1 FadeIn;
+        }
+        #g3847 path {
+            opacity: 0;
+            animation: 1s ease 1.2s normal forwards 1 FadeIn;
+        }
+        #g3851 path {
+            opacity: 0;
+            animation: 1s ease 1.3s normal forwards 1 FadeIn;
+        }
+        #g3855 path {
+            opacity: 0;
+            animation: 1s ease 1.4s normal forwards 1 FadeIn;
+        }
+        #g3859 path {
+            opacity: 0;
+            animation: 1s ease 1.5s normal forwards 1 FadeIn;
+        }
+        #g3863 path {
+            opacity: 0;
+            animation: 1s ease 1.5s normal forwards 1 FadeIn;
+        }
+        #g3867 path {
+            opacity: 0;
+            animation: 1s ease 1.6s normal forwards 1 FadeIn;
+        }
+        #g3871 path {
+            opacity: 0;
+            animation: 1s ease 1.7s normal forwards 1 FadeIn;
+        }
+        #g3875 path {
+            opacity: 0;
+            animation: 1s ease 1.8s normal forwards 1 FadeIn;
+        }
+        #g3879 path {
+            opacity: 0;
+            animation: 1s ease 1.8s normal forwards 1 FadeIn;
+        }
+        #g3883 path {
+            opacity: 0;
+            animation: 1s ease 1.9s normal forwards 1 FadeIn;
+        }
+        #g3887 path {
+            opacity: 0;
+            animation: 1s ease 2s normal forwards 1 FadeIn;
+        }
+    /* arrow */
+        #g4549 path {
+            opacity: 0;
+            animation: 1s ease 3.1s normal forwards 1 FadeIn;
+        }
+        #g4583 path {
+            opacity: 0;
+            animation: 1s ease 3.1s normal forwards 1 FadeIn;
+        }
+    /* Lines */
+        #g4591 path , #g4587 path {
+            opacity: 0;
+            animation: 1s ease 3.5s normal forwards 1 FadeIn;
+        }
+    /* Binary */
+        #Binary{
+        opacity: 0;
+        animation: 1s ease 3.5s normal forwards 1 FadeIn;
+        }
+    /* Star */
+        #star{
+        opacity: 0;
+        animation: 1s ease 3.5s normal forwards 1 FadeIn;
+        }
+    /* border "</" */
+        #path3825 {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 5s linear alternate infinite;
+        }
+        #path3829 {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 5s linear alternate infinite;
+        }
+/* animation bounce + taille */
+    svg {
+        margin-top: 5%;
+        width: 100%;
+        animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+    body{
+        background-image: url("bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
